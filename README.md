@@ -4,7 +4,7 @@ This project is to test the nextjs internalization feature.
 
 The project has a few routes which some are dynamically generated using `getStaticProps` and `getStaticPaths`. When building the project, only the routes that use the `English` language are listed in the build summary, BUT the spanish ones work anyway as you can see by executing `yarn build` or on the following image 👇.
 
-![Build summary](/images/build-summary.png)
+![Build summary](https://i.imgur.com/YxPZyMd.png)
 
 You will see two dynamic routes:
 ```
